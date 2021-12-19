@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Dani (@daenke) and my native language in the sources is german.
 - 👀 I’m interested in C, JAVA, C++ ...
-- In Java I'm experienced by 10 years autodidactic studium in eclipse since 2000 (with baby pause :) ) and have self written my tools that I need & some games ... in my free time in java for driving on Windows AND Linux (my favorite).
+- In Java I'm experienced by 10 years autodidactic studium in eclipse since 2000 (with baby & family pause :) ) and have self written my tools that I need & some games ... in my free time in java for driving on Windows AND Linux (my favorite).
    That is more satisfying for me than reading books or watching TV.
    But I'm also interested in other things like making music and do sports 3-4 time a week do motorcycling and much more (not a really nerd to spend hours infront of monitor). 
 - 🌱 I’m currently learning C++
