@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Dani (@daenke) and my native language in the sources is german.
+- 👋 Hi, I’m Dani and my native language in the sources is german.
 - 👀 I’m interested in C, JAVA, C++ ...
 - In Java I'm experienced by 10 years autodidactic studium in eclipse since 2000 (with baby & family pause :) ) and have self written my tools that I need & some games ... in my free time in java for driving on Windows AND Linux (my favorite).
    That is more satisfying for me than reading books or watching TV.
