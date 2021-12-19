@@ -7,7 +7,7 @@
 - 💞️ I’m looking to collaborate on open source projects
 - 📫 How to reach me ...
 - My project you can see here: https://github.com/daenke - with more time I will upload some more!!
-- Thats for first! :) Have peace, love & fun all together in this special times!
+- Thats it for now! :) Have peace, love & fun all together in this special times!
 
 <!---
 daenke/daenke is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
