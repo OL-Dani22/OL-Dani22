@@ -6,8 +6,8 @@
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on open source projects
 - 📫 How to reach me ...
-- My project you can see here: https://github.com/daenke
-Thats for first! :)
+- My project you can see here: https://github.com/daenke - with more time I will upload some more!!
+- Thats for first! :)
 
 <!---
 daenke/daenke is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
