@@ -1,5 +1,8 @@
 - 👋 Hi, I’m @daenke
 - 👀 I’m interested in C, JAVA, C++
+- In Java I'm experienced by 10 years autodidactic studium and have self written my tools that I need & some games ... in my free time.
+   That is more satisfying for me than reading books or watching TV.
+   But I'm also interested in other things like making music and do sports 3-4 time a week (not a really nerd to spend hours infront of monitor). 
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on open source projects
 - 📫 How to reach me ...
