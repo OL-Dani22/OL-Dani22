@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Dani and my native language in the sources is german.
 - 👀 I’m interested in C, JAVA, C++ ...
 - In C I was used to program in my study in the early 90s (TurboC, BorlandC ...) e.g. an OS for SCARA robots..
-- In Java I'm experienced by 10 years autodidactic studies in the inspiring IDE Eclipse since 2000 (with baby & family pause :) ) and wrote by myself the tools that I need & some games for / with family ... in my free time in java especially for driving on Windows AND Linux (my favorite).
+- In Java I'm experienced by 10 years autodidactic studies in the inspiring IDE Eclipse since 2000 (with baby & family pause 😺 ) and wrote by myself the tools that I need & some games for / with family ... in my free time in java especially for driving on Windows AND Linux (my favorite).
    That is more satisfying for me than reading some kinds of books or watching TV.
    But I'm also interested in other things like making music and doing sports 3-4 time a week or motorcycling and much more (not a really nerd to spend hours infront of the monitor). 
 - 🌱 I’m currently learning C++
