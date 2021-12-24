@@ -7,7 +7,7 @@
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on open source projects
 - 📫 How to reach me ...
-- My project you can see here: https://github.com/OL-Dani22 - with more time I will upload some more!!
+- My project you can see here: https://github.com/oldy-22 - with more time I will upload some more!!
 - Thats it for now! :) Have peace, love & fun all together in this special times!
 
 <!---
