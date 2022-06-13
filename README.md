@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Dani (OL-DanY) and my native language in sources is german.                                                   13th of June 2022
+- 👋 Hi, I’m Dani (OL-DanY) and my native language in sources is german.
 - 👀 I’m interested in C, JAVA, C++ ... and I am not very interested in GUI programming (you will see in my pure swing GUIs 😆 that works only up to compiler Level 8... ) 😿
 - In C I was used to program in my study in the early 90s (TurboC, BorlandC e.g. on Schneider PC) for instance an OS for SCARA robots and some more..
 - In Java I'm experienced by 10 years autodidactic studies in the inspiring IDE Eclipse since 2000 (with baby & family pause 😺 ) and wrote by myself the tools that I need & some games for / with family in my free time. And especially in java I'm interested because of driving programs on Windows AND Linux (my favorite OS also for family).
