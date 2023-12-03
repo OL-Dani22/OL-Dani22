@@ -5,4 +5,4 @@ Daher habe ich die Daten nun im bibtex Format in das Programm Jabref integriert.
 - Nachteil:
 Wieder eine recht festgeschriebene Datenbank-Schablone - keine freien Felder leicht definierbar.
 - Vorteil:
-Leicht zu verstehen und gute Überblick mit leichten SUchefunktionen und übersichtliche Eingabemöglichkeiten.
+Leicht zu verstehen und gute Überblick mit leichten Suchfunktionen und übersichtliche Eingabemöglichkeiten.
