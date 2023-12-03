@@ -33,8 +33,9 @@ public class CsvToBibTeXConverter {
                 if (fields[5].startsWith("9")) year = "19"+fields[5];
                 	else year = "20"+fields[5];
                 String bibtexKey = fields[2].substring(0, fields[2].indexOf(' '));
-                bibtexKey = bibtexKey.substring(0, bibtexKey.length()-1);
+                bibtexKey = bibtexKey.substring(0, bibtexKey.length()-1);  // letztes Zeichen löschen ","
                 bibtexKey = bibtexKey + year;
+                bibtexKey = fields[1] + "-" + bibtexKey; // vorne noch eine laufende Nummer ran
 
                 // Aufbau der BibTeX-Einträge (angepasst an deine CSV-Struktur)
                 String bibtexEntry = "@book{" + bibtexKey + ",\n";
@@ -45,12 +46,14 @@ public class CsvToBibTeXConverter {
                 bibtexEntry += "  priority = {" + fields[1] + "},\n";
                 bibtexEntry += "  owner = {" + fields[6] + "},\n";
                 bibtexEntry += "  number = {" + fields[7] + "},\n";
-                bibtexEntry += "  edition = {" + fields[8] + "},\n";
+                bibtexEntry += "  note = {" + fields[8] + "},\n";
                 bibtexEntry += "  publisher = {" + fields[9] + "},\n";
-                bibtexEntry += "  number = {" + fields[10] + "},\n";
+                bibtexEntry += "  edition = {" + fields[10] + "},\n";
                 bibtexEntry += "  year = {" + fields[11] + "},\n";
                 bibtexEntry += "  isbn = {" + fields[12] + "},\n";
-                bibtexEntry += "  abstract = {" + fields[13] + "},\n";
+                String abstracts =  fields[14].substring(0, fields[14].length()-1);  // letztes Zeichen löschen *"*
+
+                bibtexEntry += "  abstract = {" + abstracts + "},\n";
                 // Füge weitere Felder nach Bedarf hinzu
 
                 bibtexEntry += "}\n\n";
