@@ -32,8 +32,15 @@ public class CsvToBibTeXConverter {
                 String year;
                 if (fields[5].startsWith("9")) year = "19"+fields[5];
                 	else year = "20"+fields[5];
-                String bibtexKey = fields[2].substring(0, fields[2].indexOf(' '));
-                bibtexKey = bibtexKey.substring(0, bibtexKey.length()-1);  // letztes Zeichen löschen ","
+                String bibtexKey = "";
+                try{ 
+                	bibtexKey = fields[2].substring(0, fields[2].indexOf(' ')); 
+                	int firstWordLength = bibtexKey.length()-1;
+                	if (bibtexKey.endsWith(",")) // 2 Schreibweisen Daniel Enke & Enke, Daniel immer Nachname
+                    	bibtexKey = bibtexKey.substring(0, firstWordLength);  // letztes Zeichen löschen bei ","
+                	else
+                		bibtexKey = fields[2].substring(firstWordLength+2, fields[2].length()); 
+                } catch (StringIndexOutOfBoundsException s) {}
                 bibtexKey = bibtexKey + year;
                 bibtexKey = fields[1] + "-" + bibtexKey; // vorne noch eine laufende Nummer ran
 
@@ -51,6 +58,7 @@ public class CsvToBibTeXConverter {
                 bibtexEntry += "  edition = {" + fields[10] + "},\n";
                 bibtexEntry += "  year = {" + fields[11] + "},\n";
                 bibtexEntry += "  isbn = {" + fields[12] + "},\n";
+                // [13] waren Schlüsselwörter die aber in anderen Tabellen standen
                 String abstracts =  fields[14].substring(0, fields[14].length()-1);  // letztes Zeichen löschen *"*
 
                 bibtexEntry += "  abstract = {" + abstracts + "},\n";
