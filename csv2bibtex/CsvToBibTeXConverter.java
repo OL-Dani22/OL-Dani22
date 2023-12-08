@@ -48,16 +48,23 @@ public class CsvToBibTeXConverter {
                 String bibtexEntry = "@book{" + bibtexKey + ",\n";
                 bibtexEntry += "  groups = {" + groups + "},\n";
                 bibtexEntry += "  author = {" + fields[2] + "},\n";
-                bibtexEntry += "  title = {" + fields[3] + "},\n";
+                bibtexEntry += "  title = {{" + fields[3] + "}},\n";
                 bibtexEntry += "  date = {" + year + "-0" + fields[4] + "-01},\n";
+                bibtexEntry += "  year = {" + year + "},\n";
                 bibtexEntry += "  priority = {" + fields[1] + "},\n";
                 bibtexEntry += "  owner = {" + fields[6] + "},\n";
-                bibtexEntry += "  number = {" + fields[7] + "},\n";
-                bibtexEntry += "  note = {" + fields[8] + "},\n";
-                bibtexEntry += "  publisher = {" + fields[9] + "},\n";
-                bibtexEntry += "  edition = {" + fields[10] + "},\n";
-                bibtexEntry += "  year = {" + fields[11] + "},\n";
-                bibtexEntry += "  isbn = {" + fields[12] + "},\n";
+                if (! fields[7].isEmpty()) // nur gefüllte Felder transferieren
+                	bibtexEntry += "  number = {" + fields[7] + "},\n";
+                if (Integer.parseInt(fields[8]) != 0)
+                	bibtexEntry += "  note = {" + fields[8] + "},\n";
+                if (! fields[9].isEmpty())
+                	bibtexEntry += "  publisher = {" + fields[9] + "},\n";
+                if (Integer.parseInt(fields[10]) != 0)
+                	bibtexEntry += "  edition = {" + fields[10] + "},\n";
+                if (Integer.parseInt(fields[11]) != 0)
+                	bibtexEntry += "  printed = {" + fields[11] + "},\n";
+                if (! fields[12].isEmpty())
+                	bibtexEntry += "  isbn = {" + fields[12] + "},\n";
                 // [13] waren Schlüsselwörter die aber in anderen Tabellen standen
                 String abstracts =  fields[14].substring(0, fields[14].length()-1);  // letztes Zeichen löschen *"*
 
