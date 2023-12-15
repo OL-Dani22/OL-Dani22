@@ -6,7 +6,6 @@
    But I'm also interested in other things like making music and doing sports (e.g. orienteering - in german OL) or in motorcycling and much more (I'm also not a really nerd that permanently spends hours infront of the monitor). But in Java I've cracked some code nuggets in long evening sessions!
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on open source projects
-- 📫 How to reach me e.g. https://kirche.social/@dani
 - My project you can see here: https://github.com/oldy-22 - with more time I will upload some more!!
 - Thats it for now! :) Have peace, love & fun all together in this special times!
 
